@@ -1,9 +1,10 @@
-
-import './App.css';
+import ShowDetials from "./InputComponents/ShowingDetails";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
+    <div>
+      <ShowDetials />
     </div>
   );
 }
